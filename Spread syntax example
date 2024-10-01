@@ -1,0 +1,7 @@
+const fruits = ['apple', 'banana', 'orange'];
+const vegetables = ['carrot', 'broccoli', 'spinach'];
+
+
+const food = [...fruits, ...vegetables];
+
+console.log(food); // Output: ['apple', 'banana', 'orange', 'carrot', 'broccoli', 'spinach']
