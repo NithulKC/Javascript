@@ -1,0 +1,23 @@
+//HTML code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="java2.js">
+    </script>
+    <h1>Wait for few moments and observe</h1>
+</body>
+</html>
+
+
+//Js code
+
+setTimeout(() => {
+    document.body.style.backgroundColor = "blue";
+  }, 2000); 
+  
