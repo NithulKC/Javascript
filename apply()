@@ -1,0 +1,7 @@
+function introduce(greeting, punctuation) {
+  console.log(`${greeting}, my name is ${this.name}${punctuation}`);
+}
+
+const person = { name: 'Bob' };
+
+introduce.apply(person, ['Hi', '!']); // Output: Hi, my name is Bob!
