@@ -1,0 +1,5 @@
+setInterval(() => {
+  console.log("This message is logged every 2 seconds!");
+}, 2000); 
+//we pasted it directly in console tab
+//it keeps on repeating
