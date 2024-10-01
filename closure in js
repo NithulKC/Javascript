@@ -1,0 +1,14 @@
+function createCounter() {
+  let count = 0; 
+
+  return function() { // This inner function forms a closure
+    count++; 
+    return count; 
+  };
+}
+
+const counter = createCounter(); // Create a new counter instance
+
+console.log(counter()); 
+console.log(counter()); 
+console.log(counter()); 
